@@ -1,4 +1,5 @@
 language: java
-
+ install:
+   -mvn install:install -file -Dfile=C:\Users\Usuario\Documents\GitHub -DgroupId=junit DartifactId=junit -Dversion=3.8.2 -Dpackaging=jar
 script:
   - ant -f Actividad1_Datos2/build.xml
