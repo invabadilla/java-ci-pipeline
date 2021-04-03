@@ -3,3 +3,5 @@ language: java
   #- mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   - ant -f Actividad1_Datos2/build.xml
+  - javac Actividad1_Datos2/src/Test.java
+  - java Test
