@@ -8,14 +8,15 @@
     <property name="dist" location="dist" />
     <property name="version" value="1.0" />
 
-    <path id="path.libs">
-        <pathelement location="lib" />
-        <fileset dir="lib">
-            <include name="junit-3.8.2.jar" />
-        </fileset>
-    </path>
-
-    <!--<classpath refid="path.libs" /> -->
+    <target name="classpath">
+        <path id="classpath">
+            <fileset dir="lib">
+                <include name="junit-3.8.2.jar"/>
+            </fileset>
+            <pathelement location="lib" />
+            <pathelement location="lib"/>
+        </path>
+    </target>
 
     <target name="init">
         <!-- Create the time stamp -->
@@ -24,9 +25,10 @@
         <mkdir dir="${build}" />
     </target>
 
-    <target name="compile" depends="init" description="compile the source">
+    <target name="compile" depends="init, classpath" description="compile the source">
         <!-- Compile the java code from ${src} into ${build} -->
-        <javac srcdir="${src}" destdir="${build}" />
+        <mkdir dir="lib"/>
+        <javac srcdir="${src}" destdir="${build}" classpathref="classpath" includeantruntime="false" />
     </target>
 
     <target name="dist" depends="compile" description="generate the distribution">
