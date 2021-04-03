@@ -1,4 +1,8 @@
 language: java
 
+before_script:
+  - sudo apt-get install ant-optional
+
 script:
   - ant -f Actividad1_Datos2/build.xml
+

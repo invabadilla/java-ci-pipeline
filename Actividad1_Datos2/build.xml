@@ -49,7 +49,6 @@
 
     <!-- the ant job for compiling our code -->
     <target name="compile" depends="clean,classpath, init">
-        <javac srcdir="${src}" destdir="${build}" />
         <mkdir dir="${bin.dir}"/>
         <mkdir dir="${bin.dir}/classes"/>
         <javac srcdir="src" destdir="${bin.dir}/classes" classpathref="classpath" includeantruntime="false"/>
