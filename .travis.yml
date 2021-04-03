@@ -1,5 +1,5 @@
 language: java
 install:
-  - mvn install:install -file -Dfile= Users/Usuario/Documents/GitHub/junit-3.8.2.jar -DgroupId=junit DartifactId=junit -Dversion=3.8.2 -Dpackaging=jar
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   - ant -f Actividad1_Datos2/build.xml
