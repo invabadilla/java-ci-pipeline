@@ -1,4 +1,4 @@
-<project name="Actividad 1 - Datos II" default="dist" basedir=".">
+<project name="Actividad1_Datos2" default="dist" basedir=".">
     <description>
         simplest example build file
     </description>
@@ -26,7 +26,7 @@
         <mkdir dir="${dist}/lib" />
 
         <!-- Put everything in ${build} into the MyApplication-${version}.${build.number}.jar -->
-        <jar destfile="${dist}/lib/Actividad 1 - Datos II-${version}.${build.number}.jar" basedir="${build}"/>
+        <jar destfile="${dist}/lib/Actividad1_Datos2-${version}.${build.number}.jar" basedir="${build}"/>
 
     </target>
 
