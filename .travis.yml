@@ -1,4 +1,4 @@
 language: java
 
 script:
-  - ant -f build.xml
+  - ant -f Actividad1_Datos2/build.xml

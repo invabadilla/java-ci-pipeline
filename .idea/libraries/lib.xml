@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/MyApplication-1.0.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/MyApplication-1.0.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.6.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.4.jar!/" />
-      <root url="jar://$PROJECT_DIR$/Actividad 1 - Datos II/dist/lib/Actividad 1 - Datos II-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/MyApplication-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/MyApplication-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Actividad1_Datos2/dist/lib/Actividad 1 - Datos II-1.0.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
