@@ -1,5 +1,5 @@
 language: java
-install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+#install:
+  #- mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   - ant -f Actividad1_Datos2/build.xml

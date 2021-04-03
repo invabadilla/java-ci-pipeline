@@ -8,6 +8,15 @@
     <property name="dist" location="dist" />
     <property name="version" value="1.0" />
 
+    <path id="path.libs">
+        <pathelement location="lib" />
+        <fileset dir="lib">
+            <include name="junit-3.8.2.jar" />
+        </fileset>
+    </path>
+
+    <!--<classpath refid="path.libs" /> -->
+
     <target name="init">
         <!-- Create the time stamp -->
         <tstamp />
