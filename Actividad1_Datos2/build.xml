@@ -80,7 +80,7 @@
     <target name="package" depends="test-jar">
     </target>
 
-    <target name="all" depends="compile-test, empaqueta">
+    <target name="all" depends="compile-test">
         <mkdir dir="${report.data.dir}"/>
         <mkdir dir="${report.dir}"/>
         <junit fork="no" haltonfailure="no" showoutput="yes" printsummary="true">
