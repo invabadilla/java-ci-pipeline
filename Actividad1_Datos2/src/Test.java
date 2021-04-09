@@ -8,7 +8,7 @@ public class Test extends TestCase {
     }
     public void testsuma(){
         esenario();
-        assertTrue(myCalcu.suma(2,8) == (2+8));
+        assertTrue(myCalcu.suma(2,9) == (2+9));
         assertTrue(myCalcu.suma(7,2) == (7+2));
     }
 
